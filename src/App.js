@@ -9,10 +9,12 @@ import {
   ContactUs,
   NoMatch,
 } from './components/Routes';
+import { Header, Footer } from './components/common';
 
 const App = () => {
   return (
     <Router>
+      <Header />
       <Switch>
         <Route exact path='/' component={Homepage} />
         <Route exact path='/about' component={About} />
@@ -22,6 +24,7 @@ const App = () => {
         <Route exact path='/contact-us' component={ContactUs} />
         <Route component={NoMatch} />
       </Switch>
+      <Footer />
     </Router>
   );
 };
