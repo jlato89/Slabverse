@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+
+  font-size: 18px;
+  letter-spacing: 2.5px;
+  margin: 10px 0;
+}
+.location {
+  font-family: sans-serif;
+  line-height: 1.5rem;
+}
+.phone {
+  margin: 20px 0;
+}
+.icon {
+  width: 32px;
+  height: 32px;
+  margin: 0 5px;
+}

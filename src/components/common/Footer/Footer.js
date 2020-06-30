@@ -1,11 +1,16 @@
 import React from 'react';
 import styles from './Footer.module.css';
+import CompanyInfo from './components/CompanyInfo/CompanyInfo';
 
 const Footer = () => {
-  const link = 'https://JoshLatour.com';
   return (
     <div className={styles.container}>
-      Designed with React by <a href={link}>Josh Latour</a>
+      <div className={styles.info}>
+        <CompanyInfo />
+      </div>
+      <sub>
+        Designed with React by <a href='https://JoshLatour.com'>Josh Latour</a>
+      </sub>
     </div>
   );
 };
