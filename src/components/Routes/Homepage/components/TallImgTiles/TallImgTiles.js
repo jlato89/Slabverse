@@ -11,8 +11,8 @@ const tiles = [
 const TallImgTiles = () => {
   return (
     <div className={styles.container}>
-      {tiles.map((tile) => (
-        <img className={styles.tiles} src={tile.src} alt={tile.alt} />
+      {tiles.map((tile, i) => (
+        <img key={i} className={styles.tiles} src={tile.src} alt={tile.alt} />
       ))}
     </div>
   );
