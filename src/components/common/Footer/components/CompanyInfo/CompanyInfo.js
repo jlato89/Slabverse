@@ -19,14 +19,14 @@ const CompanyInfo = () => {
             <img
               className={styles.icon}
               src='assets/images/facebook.png'
-              alt='Facebook'
+              alt='Facebook Link'
             />
           </a>
           <a href='http://instagram.com/discovergraniteinc'>
             <img
               className={styles.icon}
               src='assets/images/instagram.png'
-              alt='Facebook'
+              alt='Instagram Link'
             />
           </a>
         </div>
